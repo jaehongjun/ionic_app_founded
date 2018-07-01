@@ -1,0 +1,4 @@
+#Sun Jul 01 16:40:35 KST 2018
+base.0=D\:\\study\\ionic_css\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\study\\ionic_css\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
