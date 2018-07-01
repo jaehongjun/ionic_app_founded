@@ -1,0 +1,27 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-item>
+  <ion-icon name="logo-dropbox" item-left></ion-icon>
+  Files
+  <ion-badge item-right [attr.round-badge] = "isWindows ? '' : null">175</ion-badge>
+</ion-item>
+  <kakao-maps [mapConfig]="mapConfig"></kakao-maps>
+  <button (click)="addOverlay()">addOverlay</button>
+  <button (click)="removeOverlay()">removeOverlay</button>
+  <button (click)="changeLayout()">changeLayout</button>
+  <button (click)="addMarker()">addMarker</button>
+  <button (click)="removeMarker()">removeMarker</button>
+  <button (click)="addToolbox()">addToolbox</button>
+  <button (click)="getPosition()">getPosition</button>
+  <p>{{position}}</p>
+
+
+</ion-content>
